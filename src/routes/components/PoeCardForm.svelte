@@ -59,6 +59,8 @@
   
     label {
       font-weight: bold;
+      text-align: left;
+      width: 100%;
     }
   
     input {
