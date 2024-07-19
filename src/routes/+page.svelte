@@ -1,5 +1,4 @@
 <script>
-	import Counter from './components/Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
   import PoeCardForm from './components/PoeCardForm.svelte';
@@ -18,15 +17,6 @@
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
 
 	<PoeCardForm />
 </section>

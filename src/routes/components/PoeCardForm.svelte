@@ -53,6 +53,8 @@
       gap: 1rem;
       max-width: 300px;
       margin: 0 auto;
+      font-size: medium;
+      justify-content: flex-start;
     }
   
     label {
@@ -61,13 +63,13 @@
   
     input {
       width: 100%;
-      padding: 0.5rem;
+      padding: 0.2rem;
     }
   
     button {
       background-color: #4CAF50;
       color: white;
-      padding: 0.5rem;
+      padding: 0.2rem;
       border: none;
       cursor: pointer;
     }
